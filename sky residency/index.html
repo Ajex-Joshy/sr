@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hotelier - Hotel HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <style>
+        
+        /* Image */
+        .fullscreen-img {
+          width: 1000vw; /* Set width to full viewport width */
+          height: 50vh; /* Set height to 50% of viewport height */
+          object-fit: cover; /* Cover the entire viewport */
+          object-position: center; /* Center the image */
+          margin: 0; /* Remove default margin */
+          padding: 0; /* Remove default padding */
+        }
+    
+        /* Larger screens */
+        @media (min-width: 992px) {
+          .fullscreen-img {
+            height: 70vh; /* Increase height for larger screens */
+          }
+          .welcome-text h2 {
+            font-size: 36px; /* Increase font size for larger screens */
+          }
+          .welcome-text p {
+            color: #000000; /* Black */
+          }
+        }
+    
+        /* Smaller screens */
+        @media (max-width: 576px) {
+          .fullscreen-img {
+            height: 30vh; /* Decrease height for smaller screens */
+          }
+          .welcome-text h2 {
+            font-size: 28px; /* Increase font size for smaller screens */
+          }
+          .welcome-text p {
+            color: #000000; /* Black */
+          }
+        }
+    
+        /* Welcome Text */
+        .welcome-text {
+          color: #000000; /* Black */
+          text-align: center; /* Center align text */
+          padding: 20px 0; /* Add padding */
+          font-size: 20px; /* Increased font size */
+        }
+      </style>
+</head>
+
+<body>
+    <a href="https://wa.me/918547677320" class="whatsapp-float" target="_blank">
+        <img src="whatsapp-icon.png" alt="WhatsApp">
+      </a>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+<!-- Navbar -->
+<section class="navigation">
+    <div class="nav-container">
+      <div class="brand" >
+        <a href="#!"><strong >SKY RESIDENCY</strong></a>
+      </div>
+      <nav>
+        <div class="nav-mobile">
+          <a id="nav-toggle" href="#!"><span></span></a>
+        </div>
+        <ul class="nav-list">
+          <!-- Setting the links to #! will ensure that no action takes place on click. -->
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#rooms">Rooms</a></li>
+          <li><a href="#highlights">Highlights</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Image -->
+  <section id="home">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 p-0">
+        <img src="sky11.jpg" alt="Sky11 Image"  class="img-fluid fullscreen-img" class="img-fluid fullscreen-img orange-border">
+      </div>
+    </div>
+  </div>
+  
+  <!-- Welcome Text -->
+  <div class="container-fluid welcome-text">
+    <div class="row">
+      <div class="col-md-12">
+                        <h1 class="mb-4">Welcome to <span class="text-primary text-uppercase">Sky Residency</span></h1>
+        <p>Explore Sky Residency, strategically located near the highway for seamless travel access. Our lodge features spacious, air-conditioned rooms, promising a comfortable stay.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" >
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <h6 class="section-title text-start text-primary text-uppercase">About Us</h6>
+                        <h1 class="mb-4">Sky Residency</h1>
+                        <p class="mb-4">Sky Residency offers accommodations adjacent to a major highway, providing travelers with convenient access to nearby amenities and quick transit connections.</p>
+                        <div class="row g-3 pb-4">
+                            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="border rounded p-1">
+                                    <div class="border rounded text-center p-4">
+                                        <i class="fa fa-hotel fa-2x text-primary mb-2"></i>
+                                        <h2 class="mb-1" data-toggle="counter-up">14</h2>
+                                        <p class="mb-0">Rooms</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="border rounded p-1">
+                                    <div class="border rounded text-center p-4">
+                                        <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>
+                                        <h2 class="mb-1" data-toggle="counter-up">250</h2>
+                                        <p class="mb-0">Happy Customers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="border rounded p-1">
+                                    <div class="border rounded text-center p-4">
+                                        <i class="fa fa-users fa-2x text-primary mb-2"></i>
+                                        <h2 class="mb-1" data-toggle="counter-up">10</h2>
+                                        <p class="mb-0">Years</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="img/11.jpg" style="margin-top: 25%;">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/22.jpg">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/33.jpg">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/44.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- About End -->
+<section id="rooms">
+
+        <!-- Room Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title text-center text-primary text-uppercase">Our Rooms</h6>
+                    <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Rooms</span></h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="room-item shadow rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/room1.jpg" alt="">
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">₹1200/Night</small>
+                            </div>
+                            <div class="p-4 mt-2">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h5 class="mb-0">Standard AC</h5>
+                                    <div class="ps-2">
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-3">
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>Bath</small>
+                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                </div>
+                                <p class="text-body mb-3">Comfortable standard AC room with attached bathroom, modern amenities, and free WiFi, ensuring a relaxing and connected stay for guests.</p>
+                                <div class="d-flex justify-content-center">
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="https://wa.me/919895035448">Enquire Now</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="room-item shadow rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/room2.jpg" alt="">
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">₹1400/Night</small>
+                            </div>
+                            <div class="p-4 mt-2">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h5 class="mb-0">Delux AC</h5>
+                                    <div class="ps-2">
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-3">
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                </div>
+                                <p class="text-body mb-3">Indulge in luxury with our deluxe AC room, boasting a spacious layout, attached bathroom, complimentary WiFi, and modern amenities for enhanced comfort.</p>
+                                <div class="d-flex justify-content-center">
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="https://wa.me/919895035448">Enquire Now</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="room-item shadow rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/room3.jpg" alt="">
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">₹2000/Night</small>
+                            </div>
+                            <div class="p-4 mt-2">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h5 class="mb-0">Super Deluxe</h5>
+                                    <div class="ps-2">
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-3">
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>4 Bed</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i> Bath</small>
+                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                </div>
+                                <p class="text-body mb-3">Experience ultimate comfort in our super deluxe AC premium room, offering a spacious layout, four beds, attached bathroom, complimentary WiFi, and modern amenities for an unforgettable stay.</p>
+                                <div class="d-flex justify-content-center">
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="https://wa.me/919895035448">Enquire Now</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Room End -->
+
+
+        <!-- Video Start -->
+        <div class="container-xxl py-5 px-0 wow zoomIn" data-wow-delay="0.1s">
+            <div class="row g-0">
+                <div class="col-md-6 bg-dark d-flex align-items-center">
+                    <div class="p-5">
+                        <h6 class="section-title text-start text-white text-uppercase mb-3">Sky Residency</h6>
+                        <h1 class="text-white mb-4">Your Gateway to Elevated Comfort </h1>
+                        <p class="text-white mb-4">Experience the tranquility of Sky Residency, conveniently located near the highway. Our spacious AC rooms provide the perfect retreat, ensuring comfort and relaxation. Rest, recharge, and rejuvenate in our serene accommodations, your ideal stopover for a refreshing journey.</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="tel:919895035448" class="btn btn-primary py-md-3 px-md-5"> Contact Now </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6">
+                    <div class="video">
+                       
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                                allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+        <!-- Service Start -->
+        <section id="highlights">
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title text-center text-primary text-uppercase">Features</h6>
+                    <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Highlights</span></h1>
+                </div>
+                <div class="row g-4">
+                    
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent rounded-circle d-flex align-items-center justify-content-center" style="font-size: 4rem;">
+                                <i class="fa-solid fa-people-robbery"></i>
+                            </div>
+                            <h5 class="mb-3">Couple Rooms</h5>
+                            <p class="text-body mb-0">Intimate rooms designed for couples, offering privacy, comfort, and romance for a memorable stay at our Inn.</p>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent rounded-circle d-flex align-items-center justify-content-center" style="font-size: 4rem;">
+                                <i class="fa-solid fa-square-parking"></i>
+                            </div>
+                            <h5 class="mb-3">Ample Parking</h5>
+                            <p class="text-body mb-0">Ample parking space available, ensuring convenience and ease for guests traveling by car. Your vehicle is safe with us.</p>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent rounded-circle d-flex align-items-center justify-content-center" style="font-size: 4rem;">
+                                <i class="fa-solid fa-road"></i>
+                            </div>
+                            <h5 class="mb-3">Highway Proximity</h5>
+                            <p class="text-body mb-0">Conveniently located near the highway, providing easy access for travelers and making commuting a breeze during your stay.</p>
+                        </a>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent rounded-circle d-flex align-items-center justify-content-center" style="font-size: 4rem;">
+                                <i class="fa-solid fa-wifi"></i>                               
+                            </div>
+                            <h5 class="mb-3">Free Wifi</h5>
+                            <p class="text-body mb-0">Enjoy complimentary high-speed WiFi throughout the hotel, ensuring seamless connectivity for work, entertainment, and staying connected with loved ones.</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent rounded-circle d-flex align-items-center justify-content-center" style="font-size: 4rem;">
+                                <i class="fa-solid fa-city"></i>                               
+                            </div>
+                            <h5 class="mb-3">Thrissur Town</h5>
+                            <p class="text-body mb-0">Conveniently located just 8 km from Thrissur town, offering a serene escape with easy access to local attractions and amenities.</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent rounded-circle d-flex align-items-center justify-content-center" style="font-size: 4rem;">
+                                <i class="fa-solid fa-plane"></i>                               
+                            </div>
+                            <h5 class="mb-3">Cohin Airport</h5>
+                            <p class="text-body mb-0">Conveniently located just 44 km from Cochin International Airport, ensuring easy access for travelers arriving or departing from Cochin.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Service End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl testimonial my-5 py-ow zoomIn" data-wow-delay="0.1s">
+            <div class="container">
+                
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+       
+
+      
+
+        <!-- Footer Start -->
+        <footer style="text-align: center; color: white;">
+            <div class="footerContainer">
+                
+            </div>
+            <div class="copyright" style="margin-bottom: 10px;">
+                &copy; 2024 <strong><span>Sky Residency </span></strong><span> All rights reserved</span>
+            </div>
+            <div class="credits">
+                Designed by <a href="https://ajexjoshy.com/" style="color: rgb(115, 250, 12);">AJEX JOSHY</a>
+            </div>
+        </footer>
+        
+        
+        <!-- Footer End -->
+
+
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
